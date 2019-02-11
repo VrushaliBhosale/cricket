@@ -1,0 +1,28 @@
+uuid: fae98e75-3a53-4c73-b111-8c481bb5db9c
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.taxonomy_term.field_matches
+    - node.type.page
+    - taxonomy.vocabulary.key_terms
+id: taxonomy_term.key_terms.field_matches
+field_name: field_matches
+entity_type: taxonomy_term
+bundle: key_terms
+label: Matches
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      page: page
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference

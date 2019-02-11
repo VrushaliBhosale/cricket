@@ -1,0 +1,14 @@
+uuid: 4611adeb-fc26-4150-844f-cc2583d27c87
+langcode: en
+status: true
+dependencies: {  }
+name: new_image_style
+label: 'new image style'
+effects:
+  f3748a8a-b6b8-4711-a7f5-5e9208cb1f70:
+    uuid: f3748a8a-b6b8-4711-a7f5-5e9208cb1f70
+    id: image_resize
+    weight: 1
+    data:
+      width: 1000
+      height: 500

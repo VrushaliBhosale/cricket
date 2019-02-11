@@ -1,0 +1,8 @@
+uuid: 771c6477-00ea-424c-beb1-b24d3ec98b2e
+langcode: en
+status: true
+dependencies: {  }
+id: site_terms
+label: 'site terms'
+revision: 0
+description: ''

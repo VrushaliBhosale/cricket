@@ -1,0 +1,24 @@
+uuid: 110c5587-37b9-49ba-8e12-6bb847607df6
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.news-
+  module:
+    - system
+  theme:
+    - bartik
+id: news
+theme: bartik
+region: header
+weight: 0
+provider: null
+plugin: 'system_menu_block:news-'
+settings:
+  id: 'system_menu_block:news-'
+  label: 'News '
+  provider: system
+  label_display: visible
+  level: 1
+  depth: 0
+visibility: {  }

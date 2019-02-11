@@ -1,0 +1,20 @@
+uuid: b0d49478-4e75-49a2-8bde-70bc5fdd5c50
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.teamblocks
+id: block_content.teamblocks.default
+targetEntityType: block_content
+bundle: teamblocks
+mode: default
+content:
+  info:
+    type: string_textfield
+    weight: -5
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

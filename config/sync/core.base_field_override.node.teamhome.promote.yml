@@ -1,0 +1,22 @@
+uuid: 4dba4a89-1729-44c2-acc0-b0dac6eedef9
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.teamhome
+id: node.teamhome.promote
+field_name: promote
+entity_type: node
+bundle: teamhome
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

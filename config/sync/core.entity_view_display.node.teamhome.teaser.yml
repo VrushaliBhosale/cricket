@@ -1,0 +1,22 @@
+uuid: 2d0c6af9-48b6-41a0-9c0f-99b564e8ed94
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.teamhome.body
+    - node.type.teamhome
+  module:
+    - user
+id: node.teamhome.teaser
+targetEntityType: node
+bundle: teamhome
+mode: teaser
+content:
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  body: true

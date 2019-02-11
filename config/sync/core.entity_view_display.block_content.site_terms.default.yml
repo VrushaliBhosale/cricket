@@ -1,0 +1,22 @@
+uuid: 99cef227-0831-4476-b2fd-a13c88ed6a40
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.site_terms
+    - field.field.block_content.site_terms.body
+  module:
+    - text
+id: block_content.site_terms.default
+targetEntityType: block_content
+bundle: site_terms
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

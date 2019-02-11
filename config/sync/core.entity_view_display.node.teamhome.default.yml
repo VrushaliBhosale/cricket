@@ -1,0 +1,112 @@
+uuid: 084e8ece-c2fa-47d9-92e4-11bbacf16253
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.teamhome.body
+    - field.field.node.teamhome.field_member2
+    - field.field.node.teamhome.field_member3
+    - field.field.node.teamhome.field_member4
+    - field.field.node.teamhome.field_member5
+    - field.field.node.teamhome.field_member6
+    - field.field.node.teamhome.field_member7
+    - field.field.node.teamhome.field_member8
+    - field.field.node.teamhome.field_team_images
+    - field.field.node.teamhome.field_team_members
+    - image.style.new_image_style
+    - node.type.teamhome
+  module:
+    - image
+    - text
+    - user
+id: node.teamhome.default
+targetEntityType: node
+bundle: teamhome
+mode: default
+content:
+  body:
+    type: text_default
+    weight: 1
+    region: content
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  field_member2:
+    weight: 6
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_member3:
+    weight: 7
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_member4:
+    weight: 8
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_member5:
+    weight: 9
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_member6:
+    weight: 10
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_member7:
+    weight: 11
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_member8:
+    weight: 12
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_team_images:
+    weight: 0
+    label: hidden
+    settings:
+      image_style: new_image_style
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_team_members:
+    weight: 5
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

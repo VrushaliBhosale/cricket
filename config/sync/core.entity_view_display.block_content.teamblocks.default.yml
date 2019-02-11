@@ -1,0 +1,12 @@
+uuid: cd61ab3c-bcb0-42a5-8fd6-7871f7306d42
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.teamblocks
+id: block_content.teamblocks.default
+targetEntityType: block_content
+bundle: teamblocks
+mode: default
+content: {  }
+hidden: {  }

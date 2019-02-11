@@ -1,0 +1,8 @@
+uuid: 454bd0d1-5d7c-4616-9ada-8f6304c34746
+langcode: en
+status: true
+dependencies: {  }
+id: news-
+label: 'ipl news and updates'
+description: 'news and updates'
+locked: false

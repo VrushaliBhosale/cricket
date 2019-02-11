@@ -1,0 +1,28 @@
+uuid: c03bd9cc-8160-4823-9b07-e24251628690
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_member5
+    - node.type.article
+    - node.type.teamhome
+id: node.teamhome.field_member5
+field_name: field_member5
+entity_type: node
+bundle: teamhome
+label: member5
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+    sort:
+      field: _none
+    auto_create: true
+    auto_create_bundle: ''
+field_type: entity_reference
